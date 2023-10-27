@@ -11,6 +11,8 @@ def is_palindrome(string):
     return new_string[::-1].casefold() == new_string.casefold()
 
 
+
+
 word = input("Please enter a word to check if its a palindrome: ")
 if is_palindrome(word):
     print("'{}' is a Palindrome.".format(word))
